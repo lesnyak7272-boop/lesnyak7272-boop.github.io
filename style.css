@@ -1,0 +1,42 @@
+header{
+    background-color: rgb(191, 0, 0);
+    width: 100%;
+    text-align: center;
+}
+header>h1{
+    color: #ffffff;
+    font-size: 30px;
+}
+.class1, .class2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 30px;
+}
+
+.class2 {
+    flex-direction: row-reverse;
+}
+
+.class1 img, .class2 img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+.class1 p, .class2 p {
+    flex: 1;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+body{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/back.jpg");
+      color: white;
+      font-size: medium;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
